@@ -1,0 +1,18 @@
+{
+    "name": "ltsc/container",
+    "type": "library",
+    "authors": [
+        {
+            "name": "ErikaEmma",
+            "email": "plgkm6@hotmail.com"
+        }
+    ],
+    "require": {
+        "psr/container": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "LTSC\\": "src"
+        }
+    }
+}
